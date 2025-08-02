@@ -1,3 +1,8 @@
+document.addEventListener('DOMContentLoaded', function () {//when the page is loaded
+    console.log('Page loaded');
+    //Add any initialization code here
+}
+);
 
 async function post(what, where) {//post data to server
     var xhttp = new XMLHttpRequest();
